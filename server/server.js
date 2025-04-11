@@ -1,10 +1,11 @@
 const express = require('express');
-const { Low, JSONFileSync } = require('lowdb');
+const { Low } = require('lowdb');
+const { JSONFile } = require('lowdb/node');
 const path = require('path');
 
 // 初始化数据库
 const file = path.join(__dirname, 'db.json');
-const adapter = new JSONFileSync(file);
+const adapter = new JSONFile(file);
 const db = new Low(adapter);
 
 (async () => {
