@@ -4,10 +4,10 @@
     "description": "ToDo List Backend",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-      "express": "^4.18.2",
-      "lowdb": "^5.1.0"
+        "express": "^4.21.2",
+        "lowdb": "^5.1.0"
     }
-  }
+}
