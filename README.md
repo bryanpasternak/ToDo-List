@@ -42,7 +42,7 @@ cd todo-app/server
 npm install
 
 # 4. 启动服务
-npm start
+node server.js
 ```
 
 访问应用：http://localhost:3000
